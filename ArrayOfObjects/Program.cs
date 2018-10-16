@@ -10,6 +10,12 @@ namespace ArrayOfObjects
     {
         static void Main(string[] args)
         {
+            SmallApartment smallAp = new SmallApartment();
+            Person Mypers = new Person();
+  
+            //Mypers.House1 = smallAp;
+            Mypers.ShowData();
+            Console.Read();
         }
     }
 }
