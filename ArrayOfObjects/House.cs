@@ -32,7 +32,7 @@ namespace ArrayOfObjects
         }
         public virtual void ShowData()
         {
-            Console.WriteLine( "I am a house and my area is " + _area + "m2");
+            Console.WriteLine( "I am a house and my area is " + _area + "m2...");
         }
 
 
